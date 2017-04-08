@@ -1,0 +1,8 @@
+# Warehouse Simulator
+
+
+1. Running "./gradlew installDist" (without quotes)  will build and install the program to build/install/WarehouseSimulator/
+2. Enter "cd build/install/WarehouseSimulator/" to move to the installation directory
+3. Finaly "./bin/WarehouseSimulator" will run the program, automatically generating default events and stock files if they do not already exist.
+
+You can specify an alternate event file by starting the program as "./bin/WarehouseSimulator path/to/event/file" if this file does not exist it will be created with example events

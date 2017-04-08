@@ -1,0 +1,39 @@
+Order S White
+Picker Peter ready
+Loader Paul ready
+Order SE Blue
+Order SEL Red
+Sequencer Mary ready
+Order SES Green
+Picker Peter pick SW1
+Picker Peter pick SW2
+Picker Peter pick SEBLU1
+Picker Peter pick SEBLU2
+Replenisher Randy ready
+Picker Peter pick SELR1
+Picker Peter pick SELR2
+Picker Peter pick SESG1
+Picker Peter pick SESG2
+Replenisher Randy replenish A 0 0 0
+Picker Peter marshaling
+Replenisher Randy ready
+Sequencer Mary rescans
+Sequencer Mary sequences SW1
+Sequencer Mary sequences SEBLU2
+Sequencer Mary sequences SELR1
+Sequencer Mary sequences SESG2
+Sequencer Mary sequences SW2
+Sequencer Mary sequences SEBLU2
+Sequencer Mary sequences SELR2
+Sequencer Mary sequences SESG2
+Picker Peter ready
+Loader Paul rescans
+Loader Paul scans SW1
+Loader Paul scans SEBLU2
+Loader Paul scans SELR1
+Loader Paul scans SESG2
+Loader Paul scans SW2
+Loader Paul scans SEBLU2
+Loader Paul scans SELR2
+Loader Paul scans SESG2
+Loader Paul loads
