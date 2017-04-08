@@ -1,10 +1,10 @@
 # Warehouser
-Project consists of creating warehouse tracking software that deals with the ordering, tracking, picking, and shipping car fascia for a car factory.
+Project consists of designing and implementing warehouse tracking software that handles the selection and loading of fascia for bumpers on minivans.
 ----------------------------------------------
 
-Summary: Design and implement a system for handling the selection and loading of fascia for bumpers on minivans. (This is based on a real-world project.)
+Summary: Design and implement a system for h
 
-Learning objectives
+
 
  - read and understood the requirements for a project
  - used design concepts taught in class
@@ -77,28 +77,7 @@ After the sequencer sequences the fascia onto the pallets they visually inspect 
 
 Loading
 
-Each truck holds 80 orders (160 bumpers) that are stacked 10 high. Each front/back pair of pallets needs to be placed in the correct order on the truck, facing the right direction. (It is easy to tell which way they should face.) There are four pallets per level. Here is the order (F means "front fascia", R means "back fascia" or "rear fascia"):
-
-BACK OF TRUCK BED
-
-PICKING    PICKING
-REQUEST i  REQUEST i+1
-
-   ^^^^     ^^^^
-  | F4 |   | F4 |
-  | F3 |   | F3 |
-  | F2 |   | F2 |
-  | F1 |   | F1 |
-   ----     ----
-
-   ^^^^     ^^^^
-  | R4 |   | R4 |
-  | R3 |   | R3 |
-  | R2 |   | R2 |
-  | R1 |   | R1 |
-   ----     ----
-
- FRONT OF TRUCK BED
+Each truck holds 80 orders (160 bumpers) that are stacked 10 high. Each front/back pair of pallets needs to be placed in the correct order on the truck, facing the right direction. (It is easy to tell which way they should face.) There are four pallets per level. 
 Loaders will look at the picking request id and, using the barcode reader, scan the SKUs of the fascia to be loaded to make sure that orders are loaded in the correct order, and they will record that the picking request has been loaded. If the next picking request has not yet been processed (for example, a forklift broke down and other pickers finished first) then nothing will be loaded until the picking request arrives.
 
 Trucks never leave the warehouse unless they are fully loaded.
@@ -160,4 +139,8 @@ final.csv: identical in format to initial.csv. The current levels for any pick f
         A,0,0,1,26
 orders.csv: the orders that were placed on the truck. Note that not every input order will end up on the truck, because there might not be enough warehousesimulator.warehouser.events to finish.
 
-
+log.txt:
+The events
+The messages that the system sends to the barcode readers
+The messages the barcode readers sends to the system
+The lines from the event input file
