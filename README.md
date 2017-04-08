@@ -1,5 +1,6 @@
 # Warehouser
 Project consists of designing and implementing warehouse tracking software that handles the selection and loading of fascia for bumpers on minivans.
+Created with the help of Alice Southey and Matthew Tory
 ----------------------------------------------
 
 Summary: Design and implement a system for h
